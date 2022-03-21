@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class IgaguriController : MonoBehaviour
@@ -17,14 +15,5 @@ public class IgaguriController : MonoBehaviour
         GetComponent<ParticleSystem>().Play();
     }
 
-    void Start()
-    {
-        //Shoot(new Vector3(0, 200, 2000));
-    }
-
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
