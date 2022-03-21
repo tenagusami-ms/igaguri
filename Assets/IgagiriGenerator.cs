@@ -7,7 +7,7 @@ public class IgagiriGenerator : MonoBehaviour
     public GameObject igaguriPrefab;
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (!Input.GetMouseButtonDown(0)) return;
         var igaguri =
